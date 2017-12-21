@@ -1,0 +1,51 @@
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\bin\Debug\Ура новый вариант.exe.config
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\bin\Debug\Ура новый вариант.exe
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\bin\Debug\Ура новый вариант.pdb
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура новый вариант.csprojResolveAssemblyReference.cache
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\MainWindow.g.cs
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\App.g.cs
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура новый вариант_MarkupCompile.cache
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура новый вариант_MarkupCompile.lref
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\MainWindow.baml
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура новый вариант.g.resources
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура_новый_вариант.Properties.Resources.resources
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура новый вариант.csproj.GenerateResource.Cache
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура новый вариант.exe
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\Ура новый вариант.pdb
+D:\Учеба МИСиС\4 семестр\Zorin\Ура новый вариант\Ура новый вариант\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\bin\Debug\Ура новый вариант.exe.config
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.exe
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.pdb
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\bin\Debug\Ура новый вариант.exe
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\bin\Debug\Ура новый вариант.pdb
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\MainWindow.g.cs
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\App.g.cs
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант_MarkupCompile.cache
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант_MarkupCompile.lref
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\MainWindow.baml
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Resources.baml
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.g.resources
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура_новый_вариант.Properties.Resources.resources
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.csproj.GenerateResource.Cache
+C:\Users\HOOLIGAN\Documents\Visual Studio 2015\Projects\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.csprojResolveAssemblyReference.cache
+F:\Новая папка\Ура новый вариант\bin\Debug\Ура новый вариант.exe.config
+F:\Новая папка\Ура новый вариант\obj\Debug\Ура новый вариант.exe
+F:\Новая папка\Ура новый вариант\obj\Debug\Ура новый вариант.pdb
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\bin\Debug\Ура новый вариант.exe.config
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\bin\Debug\Ура новый вариант.exe
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\bin\Debug\Ура новый вариант.pdb
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\MainWindow.g.cs
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\App.g.cs
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант_MarkupCompile.cache
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант_MarkupCompile.lref
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\MainWindow.baml
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Resources.baml
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.g.resources
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура_новый_вариант.Properties.Resources.resources
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.csproj.GenerateResource.Cache
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.exe
+C:\Users\Антон\Desktop\Проги Влада\Курсовая2\Study-master\Ура новый вариант\obj\Debug\Ура новый вариант.pdb

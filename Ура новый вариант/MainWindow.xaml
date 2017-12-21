@@ -1,0 +1,138 @@
+﻿<Window x:Class="Ура_новый_вариант.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ура_новый_вариант"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="560" Width="525">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.DataContext>
+        <local:MainWindowsViewModel></local:MainWindowsViewModel>
+    </Window.DataContext>
+    <StackPanel Background="LightGreen">
+        <TextBlock Style="{StaticResource Header}">Регистрация</TextBlock>
+        <Grid Margin="20" Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Target="{Binding ElementName=Surname}" Grid.Row="0" Grid.Column="0" Style="{StaticResource LabelStyle}">Фамилия</Label>
+            <TextBox Name="Surname" Grid.Row="0" Grid.Column="1" Style="{StaticResource TopTextBoxStyle}">
+                <Binding Path="Surname" Mode="TwoWay" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                    <Binding.ValidationRules>
+                        <local:NotEmptyValidationRule></local:NotEmptyValidationRule>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox>
+            <Label Target="{Binding ElementName=Name}" Grid.Row="1" Grid.Column="0" Style="{StaticResource LabelStyle}">Имя</Label>
+            <TextBox Name="Name" Grid.Row="1" Grid.Column="1" Style="{StaticResource TopTextBoxStyle}">
+                <Binding Path="Name" Mode="TwoWay" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                    <Binding.ValidationRules>
+                        <local:NotEmptyValidationRule></local:NotEmptyValidationRule>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox>
+            <Label Target="{Binding ElementName=Patronymic}" Grid.Row="2" Grid.Column="0" Style="{StaticResource LabelStyle}">Отчество</Label>
+            <TextBox Name="Patronymic" Grid.Row="2" Grid.Column="1" Style="{StaticResource TopTextBoxStyle}">
+                <Binding Path="Patronymic" Mode="TwoWay" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                    <Binding.ValidationRules>
+                        <local:NotEmptyValidationRule></local:NotEmptyValidationRule>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox>
+        </Grid>
+        <Grid Margin="20,0,20,0" Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Style="{StaticResource Address}" Grid.Row="0" Grid.Column="0">Адрес</TextBlock>
+            <Label Target="{Binding ElementName=City}" Grid.Row="0" Grid.Column="1" Style="{StaticResource CityStyle}">Город</Label>
+            <ComboBox Grid.Row="0" Grid.Column="2" Name="City" Style="{StaticResource CityList}"
+                      ItemsSource="{Binding Cities, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="Name"
+                      SelectedItem="{Binding SelectedCity}"
+                      ></ComboBox>
+        </Grid>
+        <Grid Margin="20" Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Target="{Binding ElementName=Street}" Grid.Row="0" Grid.Column="0" Style="{StaticResource StreetStyle}">Улица</Label>
+            <ComboBox Grid.Row="0" Grid.Column="1" Name="Street" Style="{StaticResource CityList}"
+                      ItemsSource="{Binding Streets, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="Name"
+                      SelectedItem="{Binding SelectedStreet}">
+            </ComboBox>
+        </Grid>
+        <Grid Margin="20,0,20,0" Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Target="{Binding ElementName=Home}" Grid.Row="0" Grid.Column="0" Style="{StaticResource HomeLabel}">дом</Label>
+            <TextBox Grid.Row="0" Grid.Column="1" Name="Home" Style="{StaticResource BottomTextBox}">
+                <Binding Path="Home" Mode="TwoWay" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                    <Binding.ValidationRules>
+                        <local:LessThanMaxValidationRule></local:LessThanMaxValidationRule>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox>
+            <Label Target="{Binding ElementName=StrK}" Grid.Row="0" Grid.Column="2" Style="{StaticResource HomeCenterLabel}">корп./стр.</Label>
+            <TextBox Name="StrK" Grid.Row="0" Grid.Column="3" Style="{StaticResource BottomTextBox}">
+                <Binding Path="StrK" Mode="TwoWay" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                    <Binding.ValidationRules>
+                        <local:LessThanMaxValidationRule></local:LessThanMaxValidationRule>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox>
+            <Label Target="{Binding ElementName=Apartament}" Grid.Row="0" Grid.Column="4" Style="{StaticResource HomeCenterLabel}">кв</Label>
+            <TextBox Grid.Row="0" Grid.Column="5" Name="Apartament" Style="{StaticResource BottomRightTextBox}">
+                <Binding Path="Apartament" Mode="TwoWay" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                    <Binding.ValidationRules>
+                        <local:LessThanMaxValidationRule></local:LessThanMaxValidationRule>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox>
+        </Grid>
+        <Grid Margin="10,30,10,30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="1" Grid.Row="0" Style="{StaticResource SaveButton}" Command="{Binding Save, Mode=TwoWay}" CommandParameter="{Binding}">Сохранить</Button>
+            <Button Grid.Column="3" Grid.Row="0" Style="{StaticResource CancelButton}" FontSize="18" Padding="5" Command="{Binding Cancel, Mode=TwoWay}" CommandParameter="{Binding}">Отмена</Button>
+        </Grid>
+    </StackPanel>
+</Window>
