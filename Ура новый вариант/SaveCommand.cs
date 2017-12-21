@@ -29,8 +29,10 @@ namespace Ура_новый_вариант
             }
             else
             {
+                //REVIEW: Вынести строку подключения в настройки
                 using (SqlConnection connection = new SqlConnection("Server=Demidoff\\SQLEXPRESS;Database=BDVlad;Trusted_Connection=True;"))
                 {
+                    //REVIEW: Если соединение не открывается или команда не проходит - будет исключение
                     connection.Open();
                     String query = String.Format("INSERT INTO Table_3(Surname, Name, Patronymic, City, Street, Home, StrK, Apartament) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}')", apply.Surname, apply.Name, apply.Patronymic, apply.SelectedCity.Name, apply.SelectedStreet.Name, apply.Home, apply.StrK, apply.Apartament);
                     SqlCommand cmdSave = new SqlCommand(query, connection);
